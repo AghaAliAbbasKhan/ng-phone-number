@@ -1894,7 +1894,10 @@ var PhoneNumberComponent = /** @class */ (function () {
                 this.countries = this.countryService.getCountriesByISO(this.allowedCountries);
             }
             else {
-                this.countries = this.countryService.getCountries();
+                if (this.locale == 'en' || this.locale == 'es')
+                    this.countries = this.countryService.loadCountries(this.locale);
+                else
+                    this.countries = this.countryService.getCountries();
             }
             this.orderCountriesByName();
         };
@@ -2249,6 +2252,7 @@ var PhoneNumberComponent = /** @class */ (function () {
         required: [{ type: Input }],
         allowDropdown: [{ type: Input }],
         type: [{ type: Input }],
+        locale: [{ type: Input }],
         allowedCountries: [{ type: Input }],
         onCountryCodeChanged: [{ type: Output }],
         phoneNumberInput: [{ type: ViewChild, args: ['phoneNumberInput',] }],

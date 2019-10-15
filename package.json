@@ -1,12 +1,12 @@
 {
   "_args": [
     [
-      "ng-phone-number@1.0.5",
+      "ng-phone-number@1.0.9",
       "/Users/apple/Desktop/Apps/partner-gui/public"
     ]
   ],
-  "_from": "ng-phone-number@1.0.5",
-  "_id": "ng-phone-number@1.0.5",
+  "_from": "ng-phone-number@1.0.9",
+  "_id": "ng-phone-number@1.0.9",
   "_inBundle": false,
   "_integrity": "sha512-IIn84QK4mPc86l7r7s1sfLt9xoUgUWZ2DdiXRVe0s0e/NbgvPyHXJHhF7KkCr7VaNH2mXh/33Gv4fsYMaUheFg==",
   "_location": "/ngx-international-phone-number",
@@ -14,31 +14,37 @@
   "_requested": {
     "type": "version",
     "registry": true,
-    "raw": "ng-phone-number@1.0.5",
+    "raw": "ng-phone-number@1.0.9",
     "name": "ng-phone-number",
     "escapedName": "ng-phone-number",
-    "rawSpec": "1.0.5",
+    "rawSpec": "1.0.9",
     "saveSpec": null,
-    "fetchSpec": "1.0.5"
+    "fetchSpec": "1.0.9"
   },
   "_requiredBy": [
     "/"
   ],
   "_resolved": "https://registry.npmjs.org/ngx-international-phone-number/-/ngx-international-phone-number-1.0.4.tgz",
-  "_spec": "1.0.5",
+  "_spec": "1.0.9",
   "_where": "/Users/apple/Desktop/Apps/partner-gui/public",
   "author": {
     "name": "Agha Ali Abbas",
     "email": "aghaali.abbas@outlook.com"
   },
   "bugs": {
-    "url": "https://github.com/nikhiln/ngx-international-phone-number/issues"
+    "url": "https://github.com/AghaAliAbbasKhan/ng-phone-number/issues"
   },
-  "description": "A simple international telephone number input. Allows you to create a phone number field with country dropdown.",
-  "homepage": "https://github.com/AghaAliAbbasKhan/ngx-international-phone-number#readme",
+  "description": "A simple international telephone number input. Allows you to create a phone number field with country dropdown with country names in your language.",
+  "homepage": "https://github.com/AghaAliAbbasKhan/ng-phone-number#readme",
   "jsnext:main": "index.js",
   "keywords": [
-    "angular"
+    "angular",
+    "javascript",
+    "telephone",
+    "international",
+    "phonenumber",
+    "language",
+    "locale"
   ],
   "license": "MIT",
   "main": "ngx-international-phone-number.umd.js",
@@ -53,8 +59,8 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/AghaAliAbbasKhan/ngx-international-phone-number"
+    "url": "git+https://github.com/AghaAliAbbasKhan/ng-phone-number"
   },
   "typings": "ngx-international-phone-number.d.ts",
-  "version": "1.0.8"
+  "version": "1.0.9"
 }

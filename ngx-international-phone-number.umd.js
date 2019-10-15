@@ -1896,7 +1896,10 @@
                     this.countries = this.countryService.getCountriesByISO(this.allowedCountries);
                 }
                 else {
-                    this.countries = this.countryService.getCountries();
+                    if (this.locale == 'en' || this.locale == 'es')
+                        this.countries = this.countryService.loadCountries(this.locale);
+                    else
+                        this.countries = this.countryService.getCountries();
                 }
                 this.orderCountriesByName();
             };
@@ -2251,6 +2254,7 @@
             required: [{ type: core.Input }],
             allowDropdown: [{ type: core.Input }],
             type: [{ type: core.Input }],
+            locale: [{ type: core.Input }],
             allowedCountries: [{ type: core.Input }],
             onCountryCodeChanged: [{ type: core.Output }],
             phoneNumberInput: [{ type: core.ViewChild, args: ['phoneNumberInput',] }],

@@ -10,6 +10,7 @@ export declare class PhoneNumberComponent implements OnInit, ControlValueAccesso
     required: boolean;
     allowDropdown: boolean;
     type: string;
+    locale: string;
     allowedCountries: Country[];
     onCountryCodeChanged: EventEmitter<any>;
     phoneComponent: ElementRef;
