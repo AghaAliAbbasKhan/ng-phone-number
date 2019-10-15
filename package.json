@@ -1,12 +1,12 @@
 {
   "_args": [
     [
-      "ng-phone-number@1.0.9",
+      "ng-phone-number@1.0.10",
       "/Users/apple/Desktop/Apps/partner-gui/public"
     ]
   ],
-  "_from": "ng-phone-number@1.0.9",
-  "_id": "ng-phone-number@1.0.9",
+  "_from": "ng-phone-number@1.0.10",
+  "_id": "ng-phone-number@1.0.10",
   "_inBundle": false,
   "_integrity": "sha512-IIn84QK4mPc86l7r7s1sfLt9xoUgUWZ2DdiXRVe0s0e/NbgvPyHXJHhF7KkCr7VaNH2mXh/33Gv4fsYMaUheFg==",
   "_location": "/ngx-international-phone-number",
@@ -14,18 +14,18 @@
   "_requested": {
     "type": "version",
     "registry": true,
-    "raw": "ng-phone-number@1.0.9",
+    "raw": "ng-phone-number@1.0.10",
     "name": "ng-phone-number",
     "escapedName": "ng-phone-number",
-    "rawSpec": "1.0.9",
+    "rawSpec": "1.0.10",
     "saveSpec": null,
-    "fetchSpec": "1.0.9"
+    "fetchSpec": "1.0.10"
   },
   "_requiredBy": [
     "/"
   ],
   "_resolved": "https://registry.npmjs.org/ngx-international-phone-number/-/ngx-international-phone-number-1.0.4.tgz",
-  "_spec": "1.0.9",
+  "_spec": "1.0.10",
   "_where": "/Users/apple/Desktop/Apps/partner-gui/public",
   "author": {
     "name": "Agha Ali Abbas",
@@ -62,5 +62,5 @@
     "url": "git+https://github.com/AghaAliAbbasKhan/ng-phone-number"
   },
   "typings": "ngx-international-phone-number.d.ts",
-  "version": "1.0.9"
+  "version": "1.0.10"
 }

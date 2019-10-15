@@ -66,9 +66,10 @@ Once it is imported, you can use `international-phone-number`:
 If you are getting error "Can't resolve 'google-libphonenumber'" while building with aot, try to install google-libphonenumber. Run npm install google-libphonenumber@3.0.9 --save
 
 ## Supported Languages:
-Right now ng-phone-number supports 2 languages.
-1. English
-2. Espanol
+Right now ng-phone-number supports 3 languages.
+1. English `en`
+2. Espanol `es`
+3. Italian `it`
 
 I am working on adding more languages,If you want your language to be added you can put up a request at
 `aghaali.abbas@outlook.com`. You can also suggest any other feature.
