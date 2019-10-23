@@ -2603,9 +2603,12 @@
      */
             function (value, args) {
                 /** @type {?} */
-                var searchText = new RegExp(args, 'ig');
+                var searchText = new RegExp(/^\d+$/, 'ig');
                 if (value) {
-                    return value.filter(function (country) { return country.name.search(searchText) !== -1; });
+                    if (searchText.test(args))
+                        return value.filter(function (country) { return country.dialCode.toLowerCase().startsWith(args); });
+                    else
+                        return value.filter(function (country) { return country.name.toLowerCase().startsWith(args); });
                 }
             };
         CountryPipe.decorators = [

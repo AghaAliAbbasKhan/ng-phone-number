@@ -2,7 +2,7 @@
 A simple international telephone number input. Allows you to create a phone number field with country dropdown. 
 
 This is re-written version (with enhancement) of [ng4-intl-phone](https://github.com/kondi0/ng4-intl-phone/). So credit should go to [kondi0](https://github.com/kondi0) and nikhiln 
-It just resolves an issue of +39 with itlay and vatican city as the code for vc is +379, all things remain the same with ngx-international-phone-number. Moreover i have added language support. Now we can access different languages using locale.
+It resolves an issue of +39 with itlay and vatican city as the code for vc is +379 and it also enhances the searching with dial code as well as name of country, all things remain the same with ngx-international-phone-number. Moreover i have added language support. Now we can access different languages using locale.
 This library is created by [Agha Ali Abbas](https://github.com/AghaAliAbbasKhan).
 
 ## Installation
