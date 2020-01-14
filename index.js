@@ -469,7 +469,7 @@ var LOCALES = {
         so: 'SOMALIA',
         za: 'SUDÁFRICA',
         gs: 'GEORGIA DEL SUR E ISLAS SANDWICH DEL SUR',
-        es: 'ESPAÑA',
+        es: 'ESPANA',
         lk: 'SRI LANKA',
         sd: 'SUDÁN',
         ss: 'SUDÁN DEL SUR',
